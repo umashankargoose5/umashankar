@@ -3,21 +3,50 @@ title: ""
 ---
 
 <div class="hero">
-<div>
-<p class="eyebrow">BIOCHEMIST · RESEARCHER</p>
-<h1>Understanding biology through molecules, pathways, and innovation.</h1>
-<p class="lead">I am <strong>Umashankar P.</strong>, an interdisciplinary biochemist interested in plant molecular biology, lipid metabolism, genome engineering, and analytical research.</p>
-<p><a class="btn btn-primary" href="research.html">Explore my research</a> <a class="btn btn-outline" href="cv.html">View CV</a></p>
+  <div>
+    <p class="eyebrow">INTERDISCIPLINARY BIOCHEMIST · RESEARCHER</p>
+    <h1>Exploring lipid metabolism from molecules to whole-plant phenotypes.</h1>
+    <p class="lead">I am <strong>Umashankar P.</strong>, a biochemist working across plant molecular biology, lipid metabolism, genome engineering, mass spectrometry, and metabolic profiling.</p>
+    <div class="hero-buttons">
+      <a class="btn btn-primary" href="research.html">Explore research</a>
+      <a class="btn btn-outline" href="cv.html">View CV</a>
+    </div>
+  </div>
+  <div class="profile-card">
+    <div class="orb">UP</div>
+    <h3>Research interests</h3>
+    <p>Lipid metabolism · Lipidomics · CRISPR/Cas9 · Sunflower metabolic engineering · Mass spectrometry · Integrative multi-omics</p>
+  </div>
 </div>
-<div class="hero-card"><div class="orb">UP</div><h3>Research interests</h3><ul><li>Plant lipid metabolism</li><li>CRISPR/Cas genome editing</li><li>Sunflower metabolic engineering</li><li>Mass spectrometry and metabolomics</li></ul></div>
+
+## Research
+
+<div class="grid-cards">
+<div class="research-card"><h3>Plant molecular biology</h3><p>Genome engineering, transformation, tissue culture, regeneration, genotyping, and expression analysis.</p></div>
+<div class="research-card"><h3>Lipid metabolism</h3><p>TAG biosynthesis, DGAT2, fatty-acid desaturation, omega-3 enrichment, and metabolic regulation.</p></div>
+<div class="research-card"><h3>Mass spectrometry</h3><p>LC-MS/MS and GC-MS/MS method development, quantitative analysis, troubleshooting, and biological interpretation.</p></div>
 </div>
 
-## Research at a glance
+## Current research
 
-<div class="grid-cards"><div><h3>Plant molecular biology</h3><p>Plant pathways, regeneration, transformation, and molecular improvement.</p></div><div><h3>Lipid metabolism</h3><p>TAG biosynthesis, fatty-acid profiles, and metabolic pathway redesign.</p></div><div><h3>Analytical biochemistry</h3><p>LC-MS/MS, GC-MS/MS, chromatography, and computational interpretation.</p></div></div>
+### Sunflower lipid engineering
 
-## Current direction
+At the University of Hyderabad, I contribute to an ANRF-funded project investigating sunflower lipid metabolism through genome editing and metabolic engineering. My work includes CRISPR/Cas9 strategy design, vector construction, sunflower transformation and tissue culture, regeneration optimisation, genotyping, and GC-MS/MS-based lipid profiling.
 
-My current research focuses on engineering sunflower plants for altered lipid composition and increased triacylglycerol content, integrating plant tissue culture, molecular biology, CRISPR-based approaches, and lipid analysis.
+<div class="callout">Research goal: understand and engineer sunflower lipid metabolism to increase TAG content and alter fatty-acid composition, including omega-3 enrichment.</div>
 
-> My long-term goal is to become an independent researcher and Principal Scientist working at the interface of experimental biology, analytical instrumentation, and computational research.
+## From analytical research to plant biotechnology
+
+My previous work in regulated bioanalysis involved LC-MS/MS method development and validation across 34 BA/BE projects. This analytical foundation now supports my plant research by connecting molecular and genetic interventions with quantitative metabolic phenotypes.
+
+## Publication
+
+**Mothe T, Umashankar P, Sultanpuram V.R. (2021).** *Isolation of Fluoride Resistant Microorganisms from Fluoride Contaminated Ground Water Samples of Nalgonda District and Their Role in Bioremediation.* Biosci Biotechnol Res Asia, 18(1).
+
+[Read the publication](publications.html)
+
+## Connect
+
+Interested in PhD opportunities, research collaborations, and interdisciplinary projects in lipid metabolism, plant molecular biology, metabolic engineering, mass spectrometry, and molecular profiling.
+
+[Contact me](contact.html)
