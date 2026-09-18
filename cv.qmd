@@ -1,0 +1,40 @@
+---
+title: "CV"
+---
+
+# Umashankar P.
+
+**Interdisciplinary Biochemist | Lipid Metabolism | Mass Spectrometry | Molecular Biology**
+
+[Download CV PDF](files/Umashankar_Patnam_CV.pdf){.btn .btn-primary}
+
+## Research profile
+
+Interdisciplinary biochemist with 4+ years of research experience spanning mass spectrometry, bioanalytical method development, molecular biology and cell-based assays. Experienced in LC-MS/MS and GC-MS/MS-based analysis, experimental design, CRISPR-Cas9 genome editing and molecular characterisation of metabolic phenotypes.
+
+## Technical expertise
+
+**Mass spectrometry & chromatography**  
+LC-MS/MS (Sciex 6500+); GC-MS/MS (Agilent 8890–7010D GC/TQ); HPLC/UHPLC; TLC; quantitative analysis; method development, optimisation, validation and troubleshooting.
+
+**Molecular biology & genetic engineering**  
+CRISPR-Cas9; gRNA design; PCR; cloning; nucleic-acid isolation; gel electrophoresis; genotyping; gene-expression analysis; plant transformation and tissue culture.
+
+**Cell & microbiology**  
+HEK293T mammalian cell culture; plant tissue culture; Gram and fungal staining.
+
+**Bioinformatics & computation**  
+NCBI-BLAST; Primer3; CHOP-CHOP; IGV; Jalview; AutoDock Vina; GROMACS; PyMOL; Python; R; Linux.
+
+**Regulatory & quality**  
+GLP; GCP; GDP; ICH M10; SOP drafting; laboratory documentation and instrument qualification.
+
+## Training & workshops
+
+- **Mar 2026:** Lecture & Demonstration: GC-MS & HPLC-based Analysis — University of Hyderabad
+- **Jul 2023:** CRISPR Workshop (UOH), funded by SERB & IoE, India
+- **Nov–Dec 2024:** 6-week Global Research Programme — research proposal, data resourcing, report writing and referencing
+
+## Languages
+
+English C1 · Telugu Native · Hindi Fluent · German A1
