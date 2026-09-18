@@ -1,15 +1,17 @@
 project:
   type: website
+  resources:
+    - files/Umashankar_Patnam_CV.pdf
 
 website:
   title: "Umashankar P. | Research Portfolio"
   site-url: "https://umashankargoose5.github.io/umashankar/"
   navbar:
-    background: "#102A43"
-    foreground: "#FFFFFF"
+    background: "#ffffff"
+    foreground: "#17212b"
     left:
       - href: index.qmd
-        text: Home
+        text: Umashankar P.
       - href: about.qmd
         text: About
       - href: research.qmd
@@ -22,10 +24,17 @@ website:
         text: Contact
     right:
       - icon: github
-        href: https://github.com/umashankargoose5/umashankar
+        href: "https://github.com/umashankargoose5/umashankar"
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/p-umashankar/"
+  page-footer:
+    left: "© 2026 Umashankar P."
+    right: "Built with Quarto"
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
