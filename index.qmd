@@ -1,0 +1,23 @@
+---
+title: ""
+---
+
+<div class="hero">
+<div>
+<p class="eyebrow">BIOCHEMIST · RESEARCHER</p>
+<h1>Understanding biology through molecules, pathways, and innovation.</h1>
+<p class="lead">I am <strong>Umashankar P.</strong>, an interdisciplinary biochemist interested in plant molecular biology, lipid metabolism, genome engineering, and analytical research.</p>
+<p><a class="btn btn-primary" href="research.html">Explore my research</a> <a class="btn btn-outline" href="cv.html">View CV</a></p>
+</div>
+<div class="hero-card"><div class="orb">UP</div><h3>Research interests</h3><ul><li>Plant lipid metabolism</li><li>CRISPR/Cas genome editing</li><li>Sunflower metabolic engineering</li><li>Mass spectrometry and metabolomics</li></ul></div>
+</div>
+
+## Research at a glance
+
+<div class="grid-cards"><div><h3>Plant molecular biology</h3><p>Plant pathways, regeneration, transformation, and molecular improvement.</p></div><div><h3>Lipid metabolism</h3><p>TAG biosynthesis, fatty-acid profiles, and metabolic pathway redesign.</p></div><div><h3>Analytical biochemistry</h3><p>LC-MS/MS, GC-MS/MS, chromatography, and computational interpretation.</p></div></div>
+
+## Current direction
+
+My current research focuses on engineering sunflower plants for altered lipid composition and increased triacylglycerol content, integrating plant tissue culture, molecular biology, CRISPR-based approaches, and lipid analysis.
+
+> My long-term goal is to become an independent researcher and Principal Scientist working at the interface of experimental biology, analytical instrumentation, and computational research.
