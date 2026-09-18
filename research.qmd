@@ -1,0 +1,48 @@
+---
+title: "Research"
+---
+
+## Current research
+
+### Engineering sunflower lipid metabolism
+
+**ANRF-funded project (CRG/2023/006573)**  
+*Engineering sunflower for increased triacylglycerol (TAG) content and altered fatty acid profile using genome editing and chia genes*
+
+My current research at the University of Hyderabad focuses on engineering sunflower lipid metabolism to increase TAG accumulation and alter fatty-acid composition, including enrichment of oil with omega-3 fatty acids.
+
+My work combines:
+
+- CRISPR/Cas9 and gRNA strategy design
+- Cloning and genome-editing vector construction
+- Sunflower transformation and tissue-culture workflows
+- Regeneration protocol development and optimisation
+- PCR-based genotyping and gene-expression analysis
+- GC-MS/MS method development and quantitative lipid profiling
+- Instrument maintenance and troubleshooting
+
+### Lipid metabolism and metabolic regulation
+
+My broader research interests centre on how lipid biosynthetic pathways are regulated and how metabolic engineering can alter storage-lipid accumulation and fatty-acid composition.
+
+Key interests include:
+
+- TAG biosynthesis and DGAT2
+- Fatty-acid desaturation and FAD genes
+- Omega-3 fatty-acid enrichment
+- Lipid metabolic heterogeneity
+- Integrative multi-omics
+
+### Mass spectrometry and analytical biochemistry
+
+I have hands-on experience in LC-MS/MS and GC-MS/MS across research and regulated bioanalytical environments. At Axis Clinicals, I worked across 34 BA/BE projects, developed 5 bioanalytical methods and validated 14 methods across 15 studies.
+
+I am interested in extending mass-spectrometry workflows toward lipidomics, metabolomics, and molecular profiling.
+
+### Molecular biology and genome engineering
+
+My molecular biology interests include CRISPR/Cas9 genome editing, cloning, PCR, genotyping, gene-expression analysis, nucleic-acid isolation, plant transformation, and tissue culture.
+
+### Computational biology
+
+I use and am developing experience with NCBI-BLAST, Primer3, CHOP-CHOP, IGV, Jalview, AutoDock Vina, GROMACS, PyMOL, Python, R, and Linux.
