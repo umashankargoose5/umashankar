@@ -1,24 +1,43 @@
 ---
-title: "About Me"
+title: "About"
 ---
 
-## Profile
+# Umashankar P.
 
-I am an interdisciplinary biochemist with experience spanning molecular biology, analytical biochemistry, bioanalytical research, and plant biotechnology. My work combines laboratory experimentation with analytical instrumentation and computational approaches.
+**Interdisciplinary Biochemist · Lipid Metabolism · Mass Spectrometry · Molecular Biology**
+
+I am an interdisciplinary biochemist with 4+ years of research experience spanning mass spectrometry, bioanalytical method development, molecular biology, and cell-based assays. My current work combines plant molecular biology, genome editing, metabolic engineering, and analytical chemistry to investigate sunflower lipid metabolism.
+
+My research direction is toward integrating mass spectrometry-based lipidomics with spatial and molecular approaches to understand lipid metabolic heterogeneity in complex biological systems.
 
 ## Education
 
-**MSc in Biochemistry — Mahatma Gandhi University**
+### M.Sc. Biochemistry
+**Mahatma Gandhi University, Nalgonda, India**  
+Jul 2018 – Nov 2021 · CGPA 7.5/10
 
-**Master’s thesis:** *Isolation of Fluoride Resistant Microorganisms from Fluoride Contaminated Ground Water Samples of Nalgonda District and Their Role in Bioremediation.*
+### B.Sc. Biochemistry, Zoology, Chemistry
+**Palamuru University, Mahabubnagar, India**  
+Aug 2015 – Apr 2018 · CGPA 7.62/10
 
-## Professional experience
+## Research experience
 
-- **Project Associate-II — University of Hyderabad**, working in Dr. Ajay W. Tumaney’s laboratory.
-- **Member, Review Board — Acta Scientific Publications Private Limited.**
-- **Project Associate-I — CSIR-Indian Institute of Chemical Sciences / IICT.**
-- **Research Associate-I — Axis Clinicals Ltd., Bioanalytical Department.**
+### Project Associate II · University of Hyderabad
+**Feb 2025 – present**  
+Group of Prof. Ajay W. Tumaney, Department of Biochemistry
+
+### Research & Teaching Assistant · Mahindra University
+**Sep 2023 – Mar 2024**  
+Centre for Life Sciences
+
+### Project Associate I · CSIR-IICT
+**Jul 2023 – Aug 2023**  
+Analytical characterisation in a GLP-compliant laboratory.
+
+### Research Associate I · Axis Clinicals Ltd.
+**Nov 2020 – Dec 2022**  
+Bioanalytical Department; LC-MS/MS method development and validation across 34 BA/BE projects.
 
 ## Research philosophy
 
-I enjoy interdisciplinary projects combining wet-lab biology, advanced analytical instrumentation, and dry-lab interpretation.
+I am motivated by interdisciplinary problems where experimental biology, analytical instrumentation, and computational analysis can be combined to answer mechanistic questions and develop useful biological technologies.
