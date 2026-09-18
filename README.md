@@ -1,10 +1,18 @@
-# Umashankar P.
+# Umashankar P. — Research Portfolio
 
-Interdisciplinary Biochemist | Lipid Metabolism | Mass Spectrometry | Molecular Biology
+Academic researcher portfolio built with Quarto and GitHub Pages.
 
-Research portfolio: plant lipid engineering, CRISPR/Cas9 genome editing, mass spectrometry, metabolomics, molecular biology, and bioanalytical research.
+**Repository:** https://github.com/umashankargoose5/umashankar  
+**Website:** https://umashankargoose5.github.io/umashankar/
 
-## Portfolio
-The Quarto website in this repository is designed as a research-focused academic portfolio.
+The portfolio highlights research in plant molecular biology, sunflower lipid engineering, CRISPR/Cas9 genome editing, lipid metabolism, mass spectrometry, and bioanalytical research.
 
-Website: https://umashankargoose5.github.io/umashankar/
+## Publishing
+
+The repository contains a GitHub Actions workflow that renders the Quarto website and publishes it to the `gh-pages` branch.
+
+In GitHub, enable **Settings → Actions → General → Workflow permissions → Read and write permissions**, then **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+
+Before the final publication, place the CV PDF at:
+
+`files/Umashankar_Patnam_CV.pdf`
