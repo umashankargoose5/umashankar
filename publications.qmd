@@ -1,0 +1,20 @@
+---
+title: "Publications"
+---
+
+## Peer-reviewed publication
+
+### Isolation of Fluoride Resistant Microorganisms from Fluoride Contaminated Ground Water Samples of Nalgonda District and Their Role in Bioremediation
+
+**Mothe T, Umashankar P, Sultanpuram V.R. (2021).**  
+*Biosciences Biotechnology Research Asia, 18(1).*
+
+This publication arose from my M.Sc. dissertation and investigated fluoride-resistant microorganisms from contaminated groundwater and their potential for fluoride bioremediation.
+
+**Key result:** Three strains tolerated up to 500 mg/L NaF; strain MB1 achieved 68% fluoride removal under the tested batch conditions.
+
+[DOI: 10.13005/bbra/2900](https://doi.org/10.13005/bbra/2900)
+
+## Research outputs
+
+Additional publications, conference presentations, posters, protocols, datasets, and collaborative outputs can be added here as they become available.
