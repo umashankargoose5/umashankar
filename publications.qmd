@@ -2,6 +2,9 @@
 title: "Publications"
 ---
 
+<div class="publication-actions"><a class="btn btn-primary" href="https://doi.org/10.13005/bbra/2900" target="_blank" rel="noopener">Open DOI</a><button class="btn btn-outline" type="button" id="publication-toggle">Show study details ↓</button></div>
+<div id="publication-details" class="selection-detail" hidden><span class="eyebrow">Study details</span><p>Ten groundwater locations were analysed. The highest fluoride concentration observed was 9.18 ppm; three strains tolerated up to 500 mg/L NaF, and strain MB1 achieved 68% fluoride removal under the tested batch conditions.</p></div>
+
 ## Peer-reviewed publication
 
 ### Isolation of Fluoride Resistant Microorganisms from Fluoride Contaminated Ground Water Samples of Nalgonda District and Their Role in Bioremediation
@@ -18,3 +21,4 @@ This publication arose from my M.Sc. dissertation and investigated fluoride-resi
 ## Research outputs
 
 Additional publications, conference presentations, posters, protocols, datasets, and collaborative outputs can be added here as they become available.
+<script>(()=>{const b=document.getElementById("publication-toggle"),d=document.getElementById("publication-details");b.addEventListener("click",()=>{const o=d.hidden;d.hidden=!o;b.textContent=o?"Hide study details ↑":"Show study details ↓";});})();</script>
