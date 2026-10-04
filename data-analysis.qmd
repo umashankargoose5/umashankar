@@ -1,0 +1,38 @@
+---
+title: "Data Analysis & Visualization"
+---
+
+## Analytical data experience
+
+My research and professional experience combines experimental biology with quantitative analytical workflows.
+
+### Mass spectrometry
+
+**LC-MS/MS**
+- Sciex 6500+ ESI Triple Quadrupole
+- MRM optimisation and quantitative bioanalysis
+- Calibration, validation, matrix-effect, recovery and stability assessment
+- Incurred-sample analysis
+
+**GC-MS/MS**
+- Agilent 8890 GC coupled to 7010D GC/TQ
+- Fatty-acid and metabolic profiling
+- Method development, acquisition, quantitative data analysis
+- Instrument maintenance and troubleshooting
+
+## Data interpretation
+
+I am interested in turning analytical measurements into biologically meaningful conclusions, particularly for lipid metabolism and engineered plant phenotypes.
+
+Current computational interests include:
+- NCBI-BLAST, Primer3 and CHOP-CHOP
+- IGV and Jalview
+- AutoDock Vina, GROMACS and PyMOL
+- Python and R
+- Pathway and network analysis
+
+## Research workflow
+
+**Experimental design → molecular manipulation → analytical measurement → quantitative analysis → biological interpretation**
+
+This integrated workflow is central to my interest in plant lipidomics, metabolic engineering and molecular profiling.
