@@ -33,13 +33,13 @@ Key interests include:
 - Lipid metabolic heterogeneity
 - Integrative multi-omics
 
-### Mass spectrometry and analytical biochemistry
+### Mass spectrometry and analytical biochemistry {#mass-spectrometry}
 
 I have hands-on experience in LC-MS/MS and GC-MS/MS across research and regulated bioanalytical environments. At Axis Clinicals, I worked across 34 BA/BE projects, developed 5 bioanalytical methods and validated 14 methods across 15 studies.
 
 I am interested in extending mass-spectrometry workflows toward lipidomics, metabolomics, and molecular profiling.
 
-### Molecular biology and genome engineering
+### Molecular biology and genome engineering {#molecular-biology}
 
 My molecular biology interests include CRISPR/Cas9 genome editing, cloning, PCR, genotyping, gene-expression analysis, nucleic-acid isolation, plant transformation, and tissue culture.
 
