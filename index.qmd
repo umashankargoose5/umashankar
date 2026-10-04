@@ -2,51 +2,48 @@
 title: ""
 ---
 
-<div class="hero">
-  <div>
-    <p class="eyebrow">INTERDISCIPLINARY BIOCHEMIST · RESEARCHER</p>
-    <h1>Exploring lipid metabolism from molecules to whole-plant phenotypes.</h1>
-    <p class="lead">I am <strong>Umashankar P.</strong>, a biochemist working across plant molecular biology, lipid metabolism, genome engineering, mass spectrometry, and metabolic profiling.</p>
-    <div class="hero-buttons">
-      <a class="btn btn-primary" href="research.html">Explore research</a>
-      <a class="btn btn-outline" href="cv.html">View CV</a>
-    </div>
-  </div>
-  <div class="profile-card">
-    <div class="orb">UP</div>
-    <h3>Research interests</h3>
-    <p>Lipid metabolism · Lipidomics · CRISPR/Cas9 · Sunflower metabolic engineering · Mass spectrometry · Integrative multi-omics</p>
-  </div>
+<div class="homepage">
+<div class="intro-column">
+<div class="name-title">Umashankar P.</div>
+<div class="job-title">Interdisciplinary Biochemist, M.Sc.</div>
+<div class="intro-text">
+<p>I am Umashankar P., an interdisciplinary biochemist with research experience spanning lipid metabolism, mass spectrometry, molecular biology and genome engineering.</p>
+<p>My current research focuses on sunflower lipid metabolism through CRISPR/Cas9 genome editing and metabolic engineering. I am particularly interested in connecting molecular interventions with quantitative metabolic phenotypes using GC-MS/MS and related analytical approaches.</p>
+<p>I am interested in PhD opportunities, research collaborations and interdisciplinary projects at the interface of plant molecular biology, lipidomics, metabolic engineering and analytical science.</p>
+</div>
+<div class="contact-links">
+<a href="mailto:umashankarpa@uohyd.ac.in" title="Email"><i class="fa-solid fa-envelope"></i></a>
+<a href="https://www.linkedin.com/in/p-umashankar/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+<a href="https://github.com/umashankargoose5/umashankar" title="GitHub"><i class="fa-brands fa-github"></i></a>
+<a href="cv.html" title="CV"><i class="fa-regular fa-id-card"></i></a>
+</div>
+</div>
+<div class="photo-column">
+<div class="photo-placeholder">UP</div>
+</div>
 </div>
 
-## Research
+<hr>
 
-<div class="grid-cards">
-<div class="research-card"><h3>Plant molecular biology</h3><p>Genome engineering, transformation, tissue culture, regeneration, genotyping, and expression analysis.</p></div>
-<div class="research-card"><h3>Lipid metabolism</h3><p>TAG biosynthesis, DGAT2, fatty-acid desaturation, omega-3 enrichment, and metabolic regulation.</p></div>
-<div class="research-card"><h3>Mass spectrometry</h3><p>LC-MS/MS and GC-MS/MS method development, quantitative analysis, troubleshooting, and biological interpretation.</p></div>
+## Research focus
+
+<div class="focus-grid">
+<div><i class="fa-solid fa-seedling"></i><h3>Plant Molecular Biology</h3><p>Sunflower transformation, tissue culture, regeneration, genotyping and gene-expression analysis.</p></div>
+<div><i class="fa-solid fa-dna"></i><h3>Genome Engineering</h3><p>CRISPR/Cas9, gRNA strategy, cloning and genome-editing vector development.</p></div>
+<div><i class="fa-solid fa-droplet"></i><h3>Lipid Metabolism</h3><p>TAG biosynthesis, fatty-acid composition, DGAT2, FAD genes and omega-3 enrichment.</p></div>
+<div><i class="fa-solid fa-flask"></i><h3>Mass Spectrometry</h3><p>LC-MS/MS and GC-MS/MS method development, quantitative analysis and troubleshooting.</p></div>
 </div>
 
 ## Current research
 
-### Sunflower lipid engineering
+<div class="research-highlight">
+<strong>ANRF-funded project · CRG/2023/006573</strong>
+<h3>Engineering sunflower for increased triacylglycerol (TAG) content and altered fatty acid profile using genome editing and chia genes</h3>
+<p>University of Hyderabad · Group of Prof. Ajay W. Tumaney</p>
+</div>
 
-At the University of Hyderabad, I contribute to an ANRF-funded project investigating sunflower lipid metabolism through genome editing and metabolic engineering. My work includes CRISPR/Cas9 strategy design, vector construction, sunflower transformation and tissue culture, regeneration optimisation, genotyping, and GC-MS/MS-based lipid profiling.
+## Selected publication
 
-<div class="callout">Research goal: understand and engineer sunflower lipid metabolism to increase TAG content and alter fatty-acid composition, including omega-3 enrichment.</div>
+<p><strong>Mothe T, Umashankar P, Sultanpuram V.R. (2021).</strong> Isolation of Fluoride Resistant Microorganisms from Fluoride Contaminated Ground Water Samples of Nalgonda District and Their Role in Bioremediation. <em>Biosci Biotechnol Res Asia, 18(1)</em>.</p>
 
-## From analytical research to plant biotechnology
-
-My previous work in regulated bioanalysis involved LC-MS/MS method development and validation across 34 BA/BE projects. This analytical foundation now supports my plant research by connecting molecular and genetic interventions with quantitative metabolic phenotypes.
-
-## Publication
-
-**Mothe T, Umashankar P, Sultanpuram V.R. (2021).** *Isolation of Fluoride Resistant Microorganisms from Fluoride Contaminated Ground Water Samples of Nalgonda District and Their Role in Bioremediation.* Biosci Biotechnol Res Asia, 18(1).
-
-[Read the publication](publications.html)
-
-## Connect
-
-Interested in PhD opportunities, research collaborations, and interdisciplinary projects in lipid metabolism, plant molecular biology, metabolic engineering, mass spectrometry, and molecular profiling.
-
-[Contact me](contact.html)
+<p><a href="publications.html">View publication →</a></p>
