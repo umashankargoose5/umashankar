@@ -2,6 +2,17 @@
 title: "Data Analysis & Visualization"
 ---
 
+
+<div class="analysis-explorer" id="analysis-explorer">
+  <div class="explorer-buttons">
+    <button type="button" class="explorer-btn is-active" data-skill="mass">Mass spectrometry</button>
+    <button type="button" class="explorer-btn" data-skill="molecular">Molecular biology</button>
+    <button type="button" class="explorer-btn" data-skill="computation">Computation</button>
+    <button type="button" class="explorer-btn" data-skill="quality">Quality systems</button>
+  </div>
+  <div class="explorer-result"><span class="eyebrow">Selected capability</span><h3 id="analysis-title">Mass spectrometry</h3><p id="analysis-text">LC-MS/MS and GC-MS/MS experience across regulated bioanalysis and lipid profiling.</p><div id="analysis-tools" class="tool-cloud"></div></div>
+</div>
+
 ## Analytical data experience
 
 My research and professional experience combines experimental biology with quantitative analytical workflows.
@@ -36,3 +47,18 @@ Current computational interests include:
 **Experimental design → molecular manipulation → analytical measurement → quantitative analysis → biological interpretation**
 
 This integrated workflow is central to my interest in plant lipidomics, metabolic engineering and molecular profiling.
+
+<script>
+(() => {
+  const data={
+    mass:["Mass spectrometry","LC-MS/MS and GC-MS/MS experience across regulated bioanalysis and lipid profiling.",["Sciex 6500+","Agilent 8890–7010D GC/TQ","MRM optimisation","Quantitative analysis","Troubleshooting"]],
+    molecular:["Molecular biology","Molecular workflows connecting sequence-level changes with experimental plant phenotypes.",["PCR","Cloning","Genotyping","Gene expression","Tissue culture"]],
+    computation:["Computation","Sequence, structural and pathway-analysis tools supporting experimental research.",["NCBI-BLAST","Primer3","CHOP-CHOP","GROMACS","PyMOL","Python","R"]],
+    quality:["Quality systems","Experience in regulated bioanalytical and GLP-oriented workflows.",["GLP","GCP","GDP","ICH M10","SOP drafting","Instrument qualification"]]
+  };
+  const title=document.getElementById("analysis-title"),txt=document.getElementById("analysis-text"),tools=document.getElementById("analysis-tools");
+  function show(k){const d=data[k];title.textContent=d[0];txt.textContent=d[1];tools.innerHTML=d[2].map(x=>'<span class="tool-chip">'+x+'</span>').join("");}
+  document.querySelectorAll("#analysis-explorer .explorer-btn").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll("#analysis-explorer .explorer-btn").forEach(x=>x.classList.remove("is-active"));b.classList.add("is-active");show(b.dataset.skill);}));
+  show("mass");
+})();
+</script>
