@@ -26,3 +26,12 @@ h1,h2,h3 { color:#18372f; }
 a { color:#2f755b; }
 @media(max-width:900px){ .homepage{grid-template-columns:1fr; gap:2rem; padding:3rem 0 1rem;} .photo-column{order:-1;} .photo-placeholder{width:12rem;} .focus-grid{grid-template-columns:1fr 1fr;} }
 @media(max-width:560px){ .focus-grid{grid-template-columns:1fr;} .name-title{font-size:3rem;} }
+
+
+.network-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin:1.5rem 0 1rem;}
+.network-card{border:1px solid #e1e7e4;padding:1.4rem;border-radius:1rem;background:#fff;}
+.network-card i{color:#3b765f;font-size:1.35rem;}
+.network-card h3{font-size:1rem;margin:.7rem 0 .4rem;}
+.network-card p{color:#65727a;font-size:.95rem;margin:0;}
+.section-link{margin:1rem 0 3rem;}
+@media(max-width:560px){.network-grid{grid-template-columns:1fr;}}
