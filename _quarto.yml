@@ -25,6 +25,8 @@ website:
             text: Publications
       - href: cv.qmd
         text: CV
+      - href: training-network.qmd
+        text: Training & Network
       - href: contact.qmd
         text: Contact
     right:
