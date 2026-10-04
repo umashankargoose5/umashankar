@@ -2,6 +2,25 @@
 title: "Research"
 ---
 
+
+<div class="research-explorer" id="research-explorer">
+  <div class="explorer-buttons">
+    <button type="button" class="explorer-btn is-active" data-topic="all">All</button>
+    <button type="button" class="explorer-btn" data-topic="plant">Plant</button>
+    <button type="button" class="explorer-btn" data-topic="lipid">Lipid</button>
+    <button type="button" class="explorer-btn" data-topic="analytical">Analytical</button>
+    <button type="button" class="explorer-btn" data-topic="computational">Computational</button>
+  </div>
+  <div class="research-explorer-grid">
+    <button class="research-tile" type="button" data-tags="plant lipid"><strong>Sunflower lipid engineering</strong><span>TAG, fatty acids, genome editing</span></button>
+    <button class="research-tile" type="button" data-tags="lipid"><strong>Lipid metabolism</strong><span>DGAT2, FAD genes, omega-3 enrichment</span></button>
+    <button class="research-tile" type="button" data-tags="analytical"><strong>Mass spectrometry</strong><span>LC-MS/MS, GC-MS/MS, quantitative profiling</span></button>
+    <button class="research-tile" type="button" data-tags="plant"><strong>Plant transformation</strong><span>Tissue culture, regeneration, genotyping</span></button>
+    <button class="research-tile" type="button" data-tags="computational"><strong>Computational biology</strong><span>Sequence, structure, dynamics, pathway analysis</span></button>
+  </div>
+  <div class="explorer-result" id="research-result"><span class="eyebrow">Explore</span><h3>Sunflower lipid engineering</h3><p>Select a tile to focus the research themes.</p></div>
+</div>
+
 ## Current research
 
 ### Engineering sunflower lipid metabolism
@@ -46,3 +65,20 @@ My molecular biology interests include CRISPR/Cas9 genome editing, cloning, PCR,
 ### Computational biology
 
 I use and am developing experience with NCBI-BLAST, Primer3, CHOP-CHOP, IGV, Jalview, AutoDock Vina, GROMACS, PyMOL, Python, R, and Linux.
+
+<script>
+(() => {
+  const result=document.getElementById("research-result");
+  const tiles=[...document.querySelectorAll(".research-tile")];
+  const filters=[...document.querySelectorAll("#research-explorer .explorer-btn")];
+  filters.forEach(f=>f.addEventListener("click",()=>{
+    filters.forEach(x=>x.classList.remove("is-active")); f.classList.add("is-active");
+    const key=f.dataset.topic;
+    tiles.forEach(t=>t.hidden=key!=="all"&&!t.dataset.tags.split(" ").includes(key));
+  }));
+  tiles.forEach(t=>t.addEventListener("click",()=>{
+    result.querySelector("h3").textContent=t.querySelector("strong").textContent;
+    result.querySelector("p").textContent=t.querySelector("span").textContent;
+  }));
+})();
+</script>
