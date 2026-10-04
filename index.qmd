@@ -27,6 +27,20 @@ title: ""
 
 ## Research focus
 
+<div class="home-explorer" id="home-research-explorer">
+  <div class="explorer-buttons">
+    <button type="button" class="explorer-btn is-active" data-topic="plant">Plant</button>
+    <button type="button" class="explorer-btn" data-topic="lipid">Lipid metabolism</button>
+    <button type="button" class="explorer-btn" data-topic="crispr">CRISPR</button>
+    <button type="button" class="explorer-btn" data-topic="ms">Mass spectrometry</button>
+  </div>
+  <div class="explorer-result" id="explorer-result">
+    <span class="eyebrow">Selected research theme</span>
+    <h3 id="explorer-title">Plant molecular biology</h3>
+    <p id="explorer-text">Sunflower transformation, tissue culture, regeneration, genotyping and expression analysis.</p>
+  </div>
+</div>
+
 <div class="focus-grid">
 <div><i class="fa-solid fa-seedling"></i><h3>Plant Molecular Biology</h3><p>Sunflower transformation, tissue culture, regeneration, genotyping and gene-expression analysis.</p></div>
 <div><i class="fa-solid fa-dna"></i><h3>Genome Engineering</h3><p>CRISPR/Cas9, gRNA strategy, cloning and genome-editing vector development.</p></div>
@@ -58,3 +72,21 @@ title: ""
 <p><strong>Mothe T, Umashankar P, Sultanpuram V.R. (2021).</strong> Isolation of Fluoride Resistant Microorganisms from Fluoride Contaminated Ground Water Samples of Nalgonda District and Their Role in Bioremediation. <em>Biosci Biotechnol Res Asia, 18(1)</em>.</p>
 
 <p><a href="publications.html">View publication →</a></p>
+
+<script>
+(() => {
+  const topics = {
+    plant:["Plant molecular biology","Sunflower transformation, tissue culture, regeneration, genotyping and expression analysis."],
+    lipid:["Lipid metabolism","TAG biosynthesis, DGAT2, fatty-acid composition, FAD genes and omega-3 enrichment."],
+    crispr:["CRISPR/Cas9 genome engineering","gRNA strategy, cloning, genome-editing vectors and molecular characterisation."],
+    ms:["Mass spectrometry","LC-MS/MS and GC-MS/MS method development, quantitative analysis and troubleshooting."]
+  };
+  const title=document.getElementById("explorer-title"), text=document.getElementById("explorer-text");
+  document.querySelectorAll(".explorer-btn").forEach(btn=>btn.addEventListener("click",()=>{
+    document.querySelectorAll(".explorer-btn").forEach(x=>x.classList.remove("is-active"));
+    btn.classList.add("is-active");
+    const d=topics[btn.dataset.topic];
+    title.textContent=d[0]; text.textContent=d[1];
+  }));
+})();
+</script>
