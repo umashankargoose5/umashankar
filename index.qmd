@@ -42,6 +42,17 @@ title: ""
 <p>University of Hyderabad · Group of Prof. Ajay W. Tumaney</p>
 </div>
 
+
+
+## Training & network
+
+<div class="network-grid">
+<div class="network-card"><i class="fa-solid fa-certificate"></i><h3>Training</h3><p>GC-MS & HPLC analysis, CRISPR/Cas9 workshop, and a Global Research Programme covering proposal development, data resourcing, report writing, and referencing.</p></div>
+<div class="network-card"><i class="fa-solid fa-people-group"></i><h3>Scientific community</h3><p>PlantGENE Canopy Group Leader, FABA student member & volunteer, and Mentor To Go mentor.</p></div>
+</div>
+
+<p class="section-link"><a href="training-network.html">View training & network →</a></p>
+
 ## Selected publication
 
 <p><strong>Mothe T, Umashankar P, Sultanpuram V.R. (2021).</strong> Isolation of Fluoride Resistant Microorganisms from Fluoride Contaminated Ground Water Samples of Nalgonda District and Their Role in Bioremediation. <em>Biosci Biotechnol Res Asia, 18(1)</em>.</p>
