@@ -1,43 +1,60 @@
 ---
-title: "About"
+title: "Academic Journey"
 ---
 
-# Umashankar P.
+# Academic Journey
 
-**Interdisciplinary Biochemist · Lipid Metabolism · Mass Spectrometry · Molecular Biology**
+## Research profile
 
-I am an interdisciplinary biochemist with 4+ years of research experience spanning mass spectrometry, bioanalytical method development, molecular biology, and cell-based assays. My current work combines plant molecular biology, genome editing, metabolic engineering, and analytical chemistry to investigate sunflower lipid metabolism.
+I am an interdisciplinary biochemist with 4+ years of research experience spanning mass spectrometry, bioanalytical method development, molecular biology and cell-based assays. My current work combines plant molecular biology, genome editing, metabolic engineering and analytical chemistry to investigate sunflower lipid metabolism. citeturn2file0
 
-My research direction is toward integrating mass spectrometry-based lipidomics with spatial and molecular approaches to understand lipid metabolic heterogeneity in complex biological systems.
+My research direction is toward integrating mass spectrometry-based lipidomics with spatial and molecular approaches to understand lipid metabolic heterogeneity in complex biological systems. citeturn2file0
+
+## Experience
+
+### Feb 2025 – Present
+**Project Associate II · University of Hyderabad**  
+Group of Prof. Ajay W. Tumaney, Department of Biochemistry
+
+Research on an ANRF-funded project focused on sunflower lipid metabolism, genome editing and metabolic engineering. citeturn2file0
+
+### Sep 2023 – Mar 2024
+**Research & Teaching Assistant · Mahindra University, Hyderabad**  
+Centre for Life Sciences
+
+Supported research experiments, literature investigations, manuscript preparation, scientific fact-checking, grant-writing and laboratory setup. citeturn2file0
+
+### Jul 2023 – Aug 2023
+**Project Associate I · CSIR-IICT, Hyderabad**
+
+Supported analytical characterisation in a GLP-compliant laboratory, including GC-MS and UHPLC workflows, instrument qualification and laboratory documentation. citeturn2file0
+
+### Nov 2020 – Dec 2022
+**Research Associate I · Axis Clinicals Ltd., Hyderabad**  
+Bioanalytical Department
+
+Worked on LC-MS/MS workflows across 34 BA/BE projects under US FDA and ICH M10 requirements, including method development, validation, sample preparation, chromatographic optimisation and quantitative analysis. citeturn2file0
 
 ## Education
 
-### M.Sc. Biochemistry
-**Mahatma Gandhi University, Nalgonda, India**  
-Jul 2018 – Nov 2021 · CGPA 7.5/10
+### Jul 2018 – Nov 2021
+**M.Sc. Biochemistry · Mahatma Gandhi University, Nalgonda**  
+CGPA: 7.5/10
 
-### B.Sc. Biochemistry, Zoology, Chemistry
-**Palamuru University, Mahabubnagar, India**  
-Aug 2015 – Apr 2018 · CGPA 7.62/10
+Core areas included lipid metabolism, bio-analytical techniques, molecular biology, gene regulation and genetic engineering, bioinformatics and biostatistics, cell biology and signal transduction. citeturn2file0
 
-## Research experience
+### Aug 2015 – Apr 2018
+**B.Sc. Biochemistry, Zoology, Chemistry · Palamuru University, Mahabubnagar**  
+CGPA: 7.62/10 · Graduated with distinction
 
-### Project Associate II · University of Hyderabad
-**Feb 2025 – present**  
-Group of Prof. Ajay W. Tumaney, Department of Biochemistry
+Awarded Best Student of the College for the graduating year. citeturn2file0
 
-### Research & Teaching Assistant · Mahindra University
-**Sep 2023 – Mar 2024**  
-Centre for Life Sciences
+## M.Sc. dissertation
 
-### Project Associate I · CSIR-IICT
-**Jul 2023 – Aug 2023**  
-Analytical characterisation in a GLP-compliant laboratory.
+**Isolation of Fluoride-Resistant Microorganisms from Fluoride-Contaminated Groundwater and Evaluation of Their Bioremediation Potential**
 
-### Research Associate I · Axis Clinicals Ltd.
-**Nov 2020 – Dec 2022**  
-Bioanalytical Department; LC-MS/MS method development and validation across 34 BA/BE projects.
+The dissertation investigated fluoride-resistant microorganisms from groundwater in Nalgonda. Ten locations were analysed; the highest fluoride concentration observed was 9.18 ppm. Three strains tolerated up to 500 mg/L NaF, with strain MB1 achieving 68% fluoride removal under the tested batch conditions. citeturn2file0
 
-## Research philosophy
+## Academic direction
 
-I am motivated by interdisciplinary problems where experimental biology, analytical instrumentation, and computational analysis can be combined to answer mechanistic questions and develop useful biological technologies.
+My long-term aim is to build an interdisciplinary research career connecting plant biotechnology, lipid metabolism, analytical instrumentation, molecular profiling and computational biology.
