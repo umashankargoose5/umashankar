@@ -1,0 +1,34 @@
+---
+title: "Continuing Education"
+---
+
+## Learning beyond formal education
+
+My professional development has continued through focused workshops, analytical training, genome-engineering activities, research programmes, and participation in scientific communities.
+
+This interactive network groups these experiences by theme. **Click any outer node** to view the date, provider, and role or topic. You can drag the network, zoom in/out, and reposition the nodes.
+
+<div class="network-legend">
+  <span><b class="legend-dot theme-training"></b>Training & Workshops</span>
+  <span><b class="legend-dot theme-network"></b>Scientific Network</span>
+  <span><b class="legend-dot theme-analytical"></b>Analytical Science</span>
+  <span><b class="legend-dot theme-molecular"></b>Molecular Biology</span>
+</div>
+
+<div id="training-network" class="interactive-network" aria-label="Interactive training and professional network"></div>
+
+<div id="training-popup" class="training-popup" role="dialog" aria-live="polite" aria-hidden="true"></div>
+
+### Professional learning themes
+
+**Training & Workshops**  
+Structured training in CRISPR/Cas9 and analytical instrumentation, alongside a research programme focused on scientific proposal and communication skills.
+
+**Scientific Network**  
+Engagement with PlantGENE, FABA, mentoring activities, and broader scientific communities.
+
+**Analytical Science**  
+GC-MS and HPLC-based analysis, quantitative workflows, method development, and instrument-focused learning.
+
+**Molecular Biology**  
+CRISPR genome engineering, plant molecular biology, and related research skills.
