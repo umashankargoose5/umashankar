@@ -4,29 +4,34 @@ project:
     - files/Umashankar_Patnam_CV.pdf
 
 website:
-  title: "Umashankar P. | Research Portfolio"
+  title: "Umashankar P."
   site-url: "https://umashankargoose5.github.io/umashankar/"
   navbar:
-    background: "#ffffff"
-    foreground: "#17212b"
+    background: "#18372f"
+    foreground: "#ffffff"
+    title: "Umashankar P."
     left:
-      - href: index.qmd
-        text: Umashankar P.
       - href: about.qmd
-        text: About
-      - href: research.qmd
-        text: Research
-      - href: publications.qmd
-        text: Publications
+        text: Academic Journey
+      - text: Research & Projects
+        menu:
+          - href: research.qmd
+            text: Sunflower Lipid Engineering
+          - href: research.qmd#mass-spectrometry
+            text: Mass Spectrometry & Analytical Research
+          - href: research.qmd#molecular-biology
+            text: Molecular Biology & Genome Engineering
+          - href: publications.qmd
+            text: Publications
       - href: cv.qmd
         text: CV
       - href: contact.qmd
         text: Contact
     right:
-      - icon: github
-        href: "https://github.com/umashankargoose5/umashankar"
       - icon: linkedin
         href: "https://www.linkedin.com/in/p-umashankar/"
+      - icon: github
+        href: "https://github.com/umashankargoose5/umashankar"
   page-footer:
     left: "© 2026 Umashankar P."
     right: "Built with Quarto"
@@ -36,5 +41,7 @@ format:
     theme: cosmo
     css: styles.css
     toc: false
-    smooth-scroll: true
     link-external-newwindow: true
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
