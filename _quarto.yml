@@ -21,6 +21,8 @@ website:
             text: Mass Spectrometry & Analytical Research
           - href: research.qmd#molecular-biology
             text: Molecular Biology & Genome Engineering
+          - href: data-analysis.qmd
+            text: Data Analysis & Visualization
           - href: publications.qmd
             text: Publications
       - href: cv.qmd
