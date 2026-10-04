@@ -6,8 +6,6 @@ title: "CV"
 
 **Interdisciplinary Biochemist | Lipid Metabolism | Mass Spectrometry | Molecular Biology**
 
-[Download CV PDF](files/Umashankar_Patnam_CV.pdf){.btn .btn-primary}
-
 ## Research profile
 
 Interdisciplinary biochemist with 4+ years of research experience spanning mass spectrometry, bioanalytical method development, molecular biology and cell-based assays. Experienced in LC-MS/MS and GC-MS/MS-based analysis, experimental design, CRISPR-Cas9 genome editing and molecular characterisation of metabolic phenotypes.
