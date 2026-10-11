@@ -6,6 +6,7 @@ title: "CV"
 
 **Interdisciplinary Biochemist | Lipid Metabolism | Mass Spectrometry | Molecular Biology**
 
+```{=html}
 <div class="cv-overview" id="cv-overview-tabs">
 <div class="explorer-buttons">
 <button type="button" class="explorer-btn is-active" data-cv="profile">Profile</button>
@@ -15,6 +16,7 @@ title: "CV"
 </div>
 <div class="explorer-result" id="cv-result"><span class="eyebrow">Profile</span><h3>Interdisciplinary Biochemist</h3><p>Plant molecular biology, lipid metabolism, genome engineering, mass spectrometry and quantitative biological analysis.</p></div>
 </div>
+```
 
 ## Research profile
 
@@ -47,4 +49,6 @@ GLP; GCP; GDP; ICH M10; SOP drafting; laboratory documentation and instrument qu
 
 English C1 · Telugu Native · Hindi Fluent · German A1
 
+```{=html}
 <script>(()=>{const d={profile:["Profile","Interdisciplinary Biochemist","Plant molecular biology, lipid metabolism, genome engineering, mass spectrometry and quantitative biological analysis."],research:["Research","Sunflower lipid engineering","CRISPR/Cas9, TAG metabolism, fatty-acid engineering, plant transformation and regeneration."],analytical:["Analytical","Mass spectrometry","LC-MS/MS, GC-MS/MS, chromatography, quantitative analysis, method development and validation."],community:["Community","Training & network","CRISPR workshop, GC-MS/HPLC training, PlantGENE, FABA and Mentor To Go."]};const box=document.getElementById("cv-result");document.querySelectorAll("#cv-overview-tabs .explorer-btn").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll("#cv-overview-tabs .explorer-btn").forEach(x=>x.classList.remove("is-active"));b.classList.add("is-active");const x=d[b.dataset.cv];box.querySelector(".eyebrow").textContent=x[0];box.querySelector("h3").textContent=x[1];box.querySelector("p").textContent=x[2];}));})();</script>
+```
