@@ -3,6 +3,7 @@ title: "Data Analysis & Visualization"
 ---
 
 
+```{=html}
 <div class="analysis-explorer" id="analysis-explorer">
 <div class="explorer-buttons">
 <button type="button" class="explorer-btn is-active" data-skill="mass">Mass spectrometry</button>
@@ -12,6 +13,7 @@ title: "Data Analysis & Visualization"
 </div>
 <div class="explorer-result"><span class="eyebrow">Selected capability</span><h3 id="analysis-title">Mass spectrometry</h3><p id="analysis-text">LC-MS/MS and GC-MS/MS experience across regulated bioanalysis and lipid profiling.</p><div id="analysis-tools" class="tool-cloud"></div></div>
 </div>
+```
 
 ## Analytical data experience
 
@@ -48,6 +50,7 @@ Current computational interests include:
 
 This integrated workflow is central to my interest in plant lipidomics, metabolic engineering and molecular profiling.
 
+```{=html}
 <script>
 (() => {
   const data={
@@ -62,3 +65,4 @@ This integrated workflow is central to my interest in plant lipidomics, metaboli
   show("mass");
 })();
 </script>
+```
