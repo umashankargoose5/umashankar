@@ -7,13 +7,13 @@ title: "CV"
 **Interdisciplinary Biochemist | Lipid Metabolism | Mass Spectrometry | Molecular Biology**
 
 <div class="cv-overview" id="cv-overview-tabs">
-  <div class="explorer-buttons">
-    <button type="button" class="explorer-btn is-active" data-cv="profile">Profile</button>
-    <button type="button" class="explorer-btn" data-cv="research">Research</button>
-    <button type="button" class="explorer-btn" data-cv="analytical">Analytical</button>
-    <button type="button" class="explorer-btn" data-cv="community">Community</button>
-  </div>
-  <div class="explorer-result" id="cv-result"><span class="eyebrow">Profile</span><h3>Interdisciplinary Biochemist</h3><p>Plant molecular biology, lipid metabolism, genome engineering, mass spectrometry and quantitative biological analysis.</p></div>
+<div class="explorer-buttons">
+<button type="button" class="explorer-btn is-active" data-cv="profile">Profile</button>
+<button type="button" class="explorer-btn" data-cv="research">Research</button>
+<button type="button" class="explorer-btn" data-cv="analytical">Analytical</button>
+<button type="button" class="explorer-btn" data-cv="community">Community</button>
+</div>
+<div class="explorer-result" id="cv-result"><span class="eyebrow">Profile</span><h3>Interdisciplinary Biochemist</h3><p>Plant molecular biology, lipid metabolism, genome engineering, mass spectrometry and quantitative biological analysis.</p></div>
 </div>
 
 ## Research profile
