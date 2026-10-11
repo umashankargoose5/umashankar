@@ -32,3 +32,47 @@ GC-MS and HPLC-based analysis, quantitative workflows, method development, and i
 
 **Molecular Biology**  
 CRISPR genome engineering, plant molecular biology, and related research skills.
+
+
+<script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const container=document.getElementById("training-network");
+  const popup=document.getElementById("training-popup");
+  if(!container||!popup||typeof vis==="undefined") return;
+  const palette={training:{bg:"#2b6f59",border:"#1f5141"},network:{bg:"#7b5a9f",border:"#5e437b"},analytical:{bg:"#386b9e",border:"#294f76"},molecular:{bg:"#a76b35",border:"#7e4f28"}};
+  const data=[
+    {id:"hub-training",label:"Training & Workshops",group:"training",hub:true,x:-240,y:-100},
+    {id:"hub-network",label:"Scientific Network",group:"network",hub:true,x:240,y:-100},
+    {id:"hub-analytical",label:"Analytical Science",group:"analytical",hub:true,x:-240,y:160},
+    {id:"hub-molecular",label:"Molecular Biology",group:"molecular",hub:true,x:240,y:160},
+    {id:"t1",label:"GC-MS & HPLC Analysis",group:"analytical",title:"Lecture & Demonstration: GC-MS & HPLC-based Analysis",date:"March 2026",provider:"University of Hyderabad",role:"Presenter / analytical training"},
+    {id:"t2",label:"CRISPR Workshop",group:"molecular",title:"CRISPR Workshop (UOH)",date:"July 2023",provider:"University of Hyderabad · funded by SERB & IoE, India",role:"Genome-engineering workshop"},
+    {id:"t3",label:"Global Research Programme",group:"training",title:"6-week Global Research Programme",date:"November–December 2024",provider:"DDRx Group",role:"Research proposal, data resourcing, report writing and referencing"},
+    {id:"n1",label:"PlantGENE Canopy Group Leader",group:"network",title:"PlantGENE Canopy Group Leader",date:"Since August 2025",provider:"PlantGENE",role:"Scientific community leadership"},
+    {id:"n2",label:"FABA Student Member & Volunteer",group:"network",title:"Student Member & Volunteer",date:"Since June 2023",provider:"Federation of Asian Biotech Associations (FABA)",role:"Membership and volunteer engagement"},
+    {id:"n3",label:"Mentor To Go",group:"network",title:"Mentor, Mentor To Go Programme",date:"Since November 2025",provider:"Mentor To Go",role:"Mentoring and academic development"},
+    {id:"a1",label:"LC-MS/MS Bioanalysis",group:"analytical",title:"LC-MS/MS Bioanalytical Research",date:"November 2020–December 2022",provider:"Axis Clinicals Ltd.",role:"34 BA/BE projects; method development and validation"},
+    {id:"a2",label:"GC-MS/MS Workflows",group:"analytical",title:"GC-MS/MS Analytical Workflows",date:"July–August 2023 and current research",provider:"CSIR-IICT / University of Hyderabad",role:"Analytical characterisation and lipid profiling"},
+    {id:"m1",label:"Plant Transformation",group:"molecular",title:"Plant Transformation & Tissue Culture",date:"Current research",provider:"University of Hyderabad",role:"Sunflower transformation, tissue culture and regeneration"},
+    {id:"m2",label:"CRISPR/Cas9 Design",group:"molecular",title:"Genome Editing Strategy Development",date:"Current research",provider:"University of Hyderabad",role:"gRNA strategy, cloning and genome-editing vector construction"}
+  ];
+  const nodes=new vis.DataSet(data.map(n=>({...n,shape:n.hub?"ellipse":"dot",size:n.hub?30:17,color:{background:n.hub?palette[n.group].bg:"#e7eee9",border:n.hub?palette[n.group].border:"#b9c9bf"},font:{color:n.hub?"#fff":"#24332c",size:n.hub?15:12},...(n.hub?{fixed:{x:true,y:true}}:{})})));
+  const edges=new vis.DataSet([
+    {from:"hub-training",to:"t2"},{from:"hub-training",to:"t3"},{from:"hub-training",to:"t1"},
+    {from:"hub-network",to:"n1"},{from:"hub-network",to:"n2"},{from:"hub-network",to:"n3"},
+    {from:"hub-analytical",to:"a1"},{from:"hub-analytical",to:"a2"},{from:"hub-analytical",to:"t1"},
+    {from:"hub-molecular",to:"m1"},{from:"hub-molecular",to:"m2"},{from:"hub-molecular",to:"t2"}
+  ]);
+  const network=new vis.Network(container,{nodes,edges},{height:"700px",width:"100%",physics:{enabled:true,stabilization:{iterations:100}},nodes:{font:{face:"Arial"},borderWidth:2},edges:{color:{color:"#c7d3cc"},smooth:{type:"continuous"}},interaction:{hover:true,navigationButtons:true,keyboard:true}});
+  network.on("click",params=>{
+    if(!params.nodes.length){popup.style.display="none";popup.setAttribute("aria-hidden","true");return;}
+    const n=nodes.get(params.nodes[0]);
+    if(n.hub||!n.title){popup.style.display="none";popup.setAttribute("aria-hidden","true");return;}
+    popup.innerHTML='<button type="button" class="training-popup-close" aria-label="Close">×</button><div class="training-popup-theme">'+n.group+'</div><h3>'+n.title+'</h3><p><strong>Date:</strong> '+n.date+'</p><p><strong>Provider:</strong> '+n.provider+'</p><p><strong>Role / focus:</strong> '+n.role+'</p>';
+    popup.style.display="block";popup.setAttribute("aria-hidden","false");
+    const rect=container.getBoundingClientRect();popup.style.left=Math.min(window.innerWidth-popup.offsetWidth-12,Math.max(12,rect.left+params.pointer.DOM.x+14))+"px";popup.style.top=Math.min(window.innerHeight-popup.offsetHeight-12,Math.max(12,rect.top+params.pointer.DOM.y-popup.offsetHeight/2))+"px";
+    popup.querySelector(".training-popup-close").addEventListener("click",()=>{popup.style.display="none";popup.setAttribute("aria-hidden","true");});
+  });
+});
+</script>
