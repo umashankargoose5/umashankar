@@ -9,10 +9,10 @@ My professional development has continued through focused workshops, analytical 
 This interactive network groups these experiences by theme. **Click any outer node** to view the date, provider, and role or topic. You can drag the network, zoom in/out, and reposition the nodes.
 
 <div class="network-legend">
-  <span><b class="legend-dot theme-training"></b>Training & Workshops</span>
-  <span><b class="legend-dot theme-network"></b>Scientific Network</span>
-  <span><b class="legend-dot theme-analytical"></b>Analytical Science</span>
-  <span><b class="legend-dot theme-molecular"></b>Molecular Biology</span>
+<span><b class="legend-dot theme-training"></b>Training & Workshops</span>
+<span><b class="legend-dot theme-network"></b>Scientific Network</span>
+<span><b class="legend-dot theme-analytical"></b>Analytical Science</span>
+<span><b class="legend-dot theme-molecular"></b>Molecular Biology</span>
 </div>
 
 <div id="training-network" class="interactive-network" aria-label="Interactive training and professional network"></div>
