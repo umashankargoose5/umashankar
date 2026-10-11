@@ -2,6 +2,7 @@
 title: ""
 ---
 
+```{=html}
 <div class="homepage">
 <div class="intro-column">
 <div class="name-title">Umashankar P.</div>
@@ -22,11 +23,13 @@ title: ""
 <div class="photo-placeholder">UP</div>
 </div>
 </div>
+```
 
 <hr>
 
 ## Research focus
 
+```{=html}
 <div class="home-explorer" id="home-research-explorer">
 <div class="explorer-buttons">
 <button type="button" class="explorer-btn is-active" data-topic="plant">Plant</button>
@@ -40,39 +43,53 @@ title: ""
 <p id="explorer-text">Sunflower transformation, tissue culture, regeneration, genotyping and expression analysis.</p>
 </div>
 </div>
+```
 
+```{=html}
 <div class="focus-grid">
 <div><i class="fa-solid fa-seedling"></i><h3>Plant Molecular Biology</h3><p>Sunflower transformation, tissue culture, regeneration, genotyping and gene-expression analysis.</p></div>
 <div><i class="fa-solid fa-dna"></i><h3>Genome Engineering</h3><p>CRISPR/Cas9, gRNA strategy, cloning and genome-editing vector development.</p></div>
 <div><i class="fa-solid fa-droplet"></i><h3>Lipid Metabolism</h3><p>TAG biosynthesis, fatty-acid composition, DGAT2, FAD genes and omega-3 enrichment.</p></div>
 <div><i class="fa-solid fa-flask"></i><h3>Mass Spectrometry</h3><p>LC-MS/MS and GC-MS/MS method development, quantitative analysis and troubleshooting.</p></div>
 </div>
+```
 
 ## Current research
 
+```{=html}
 <div class="research-highlight">
 <strong>ANRF-funded project · CRG/2023/006573</strong>
 <h3>Engineering sunflower for increased triacylglycerol (TAG) content and altered fatty acid profile using genome editing and chia genes</h3>
 <p>University of Hyderabad · Group of Prof. Ajay W. Tumaney</p>
 </div>
+```
 
 
 
 ## Training & network
 
+```{=html}
 <div class="network-grid">
 <div class="network-card"><i class="fa-solid fa-certificate"></i><h3>Training</h3><p>GC-MS & HPLC analysis, CRISPR/Cas9 workshop, and a Global Research Programme covering proposal development, data resourcing, report writing, and referencing.</p></div>
 <div class="network-card"><i class="fa-solid fa-people-group"></i><h3>Scientific community</h3><p>PlantGENE Canopy Group Leader, FABA student member & volunteer, and Mentor To Go mentor.</p></div>
 </div>
+```
 
+```{=html}
 <p class="section-link"><a href="training-network.html">View training & network →</a></p>
+```
 
 ## Selected publication
 
+```{=html}
 <p><strong>Mothe T, Umashankar P, Sultanpuram V.R. (2021).</strong> Isolation of Fluoride Resistant Microorganisms from Fluoride Contaminated Ground Water Samples of Nalgonda District and Their Role in Bioremediation. <em>Biosci Biotechnol Res Asia, 18(1)</em>.</p>
+```
 
+```{=html}
 <p><a href="publications.html">View publication →</a></p>
+```
 
+```{=html}
 <script>
 (() => {
   const topics = {
@@ -90,3 +107,4 @@ title: ""
   }));
 })();
 </script>
+```
