@@ -62,3 +62,19 @@ a { color:#2f755b; }
 .research-tile:hover{border-color:#9eb8ab;background:#fbfdfb}
 @media(max-width:700px){.research-explorer-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.research-explorer-grid{grid-template-columns:1fr}}
+
+
+/* Profile photograph */
+.profile-photo {
+  width: min(22rem, 72vw);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center 32%;
+  border-radius: 50%;
+  border: 5px solid #e6f1ec;
+  box-shadow: 0 20px 55px rgba(24, 55, 47, 0.15);
+  display: block;
+}
+@media (max-width: 900px) {
+  .profile-photo { width: 12rem; }
+}
