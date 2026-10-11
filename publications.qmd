@@ -21,4 +21,5 @@ This publication arose from my M.Sc. dissertation and investigated fluoride-resi
 ## Research outputs
 
 Additional publications, conference presentations, posters, protocols, datasets, and collaborative outputs can be added here as they become available.
+
 <script>(()=>{const b=document.getElementById("publication-toggle"),d=document.getElementById("publication-details");b.addEventListener("click",()=>{const o=d.hidden;d.hidden=!o;b.textContent=o?"Hide study details ↑":"Show study details ↓";});})();</script>
