@@ -8,16 +8,22 @@ My professional development has continued through focused workshops, analytical 
 
 This interactive network groups these experiences by theme. **Click any outer node** to view the date, provider, and role or topic. You can drag the network, zoom in/out, and reposition the nodes.
 
+```{=html}
 <div class="network-legend">
 <span><b class="legend-dot theme-training"></b>Training & Workshops</span>
 <span><b class="legend-dot theme-network"></b>Scientific Network</span>
 <span><b class="legend-dot theme-analytical"></b>Analytical Science</span>
 <span><b class="legend-dot theme-molecular"></b>Molecular Biology</span>
 </div>
+```
 
+```{=html}
 <div id="training-network" class="interactive-network" aria-label="Interactive training and professional network"></div>
+```
 
+```{=html}
 <div id="training-popup" class="training-popup" role="dialog" aria-live="polite" aria-hidden="true"></div>
+```
 
 ### Professional learning themes
 
@@ -34,7 +40,10 @@ GC-MS and HPLC-based analysis, quantitative workflows, method development, and i
 CRISPR genome engineering, plant molecular biology, and related research skills.
 
 
+```{=html}
 <script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+```
+```{=html}
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const container=document.getElementById("training-network");
@@ -76,3 +85,4 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 </script>
+```
