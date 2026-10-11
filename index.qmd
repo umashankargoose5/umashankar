@@ -20,7 +20,7 @@ title: ""
 </div>
 </div>
 <div class="photo-column">
-<div class="photo-placeholder">UP</div>
+<img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3IS0EA7AlHsmKn0ddfkvdV1sV51/3e2c9a88-6ab0-491a-bbe3-fb726de5b564.jpg" alt="Portrait of Umashankar P." class="profile-photo" loading="eager">
 </div>
 </div>
 ```
