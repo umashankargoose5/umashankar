@@ -4,13 +4,13 @@ title: "Data Analysis & Visualization"
 
 
 <div class="analysis-explorer" id="analysis-explorer">
-  <div class="explorer-buttons">
-    <button type="button" class="explorer-btn is-active" data-skill="mass">Mass spectrometry</button>
-    <button type="button" class="explorer-btn" data-skill="molecular">Molecular biology</button>
-    <button type="button" class="explorer-btn" data-skill="computation">Computation</button>
-    <button type="button" class="explorer-btn" data-skill="quality">Quality systems</button>
-  </div>
-  <div class="explorer-result"><span class="eyebrow">Selected capability</span><h3 id="analysis-title">Mass spectrometry</h3><p id="analysis-text">LC-MS/MS and GC-MS/MS experience across regulated bioanalysis and lipid profiling.</p><div id="analysis-tools" class="tool-cloud"></div></div>
+<div class="explorer-buttons">
+<button type="button" class="explorer-btn is-active" data-skill="mass">Mass spectrometry</button>
+<button type="button" class="explorer-btn" data-skill="molecular">Molecular biology</button>
+<button type="button" class="explorer-btn" data-skill="computation">Computation</button>
+<button type="button" class="explorer-btn" data-skill="quality">Quality systems</button>
+</div>
+<div class="explorer-result"><span class="eyebrow">Selected capability</span><h3 id="analysis-title">Mass spectrometry</h3><p id="analysis-text">LC-MS/MS and GC-MS/MS experience across regulated bioanalysis and lipid profiling.</p><div id="analysis-tools" class="tool-cloud"></div></div>
 </div>
 
 ## Analytical data experience
